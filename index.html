@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Project 5</title>
+
+    <link rel = "stylesheet" href = "style.css">
+
+</head>
+<body>
+
+    <section id="banner">
+        <div class="logo">CodeBlog</div>
+
+        <div class="bannertext">
+            <h1>Enhance Yourself</h1>
+            <p>
+                Create value by styling your webpage
+            </p>
+            <div class="bannerbtn">
+                <a href="#"><span></span>Explore</a>
+                <a href="#"><span></span>Visit Blog</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="images/menu.png" ![](images/menu.png)  id="menu">
+    </div>
+
+    <section id="about">
+        <div class="titletext">
+            <p>ABOUT</p>
+            <h1>Why Choose Us</h1>
+        </div>
+        <div class="aboutbox">
+            <div class="abt">
+                <h1>Experienced Staff</h1>
+                <div class="abtdesk">
+                    <div class="abticon">
+                        <i class="fa fa-id-card-o"></i>
+                    </div>
+                    <div class="abttext">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet dolorem eligendi velit.</p>
+                    </div>
+                </div>
+                
+                <h1>Contact & Book Online</h1>
+                <div class="abtdesk">
+                    <div class="abticon">
+                        <i class="fa fa-check-square-o"></i>
+                    </div>
+                    <div class="abttext">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet dolorem eligendi velit.</p>
+                    </div>
+                </div>  
+
+                <h1>Affordable Business</h1>
+                <div class="abtdesk">
+                    <div class="abticon">
+                        <i class="fa fa-inr"></i>
+                    </div>
+                    <div class="abttext">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet dolorem eligendi velit.</p>
+                    </div>
+                </div>  
+            </div>
+            <div class="abtimg">
+                <img src="images/web_dev_pillar.jpg" ![](images/web_dev_pillar.jpg)>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="result">
+
+        <div class="titletext">
+            <p>OUR CLIENTS</p>
+            <h1>What Client Says</h1>
+        </div>
+        <div class="resultrow">
+            <div class="resultcol">
+                <div class="user">
+                    <img src="images/0.jpg" ![](images/0.jpg)>
+                    <div class="userinfo">
+                        <h4>PETER PARKER <i class="fa fa-twitter"></i></h4>
+                        <small>@peter_parker</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio velit fugiat commodi veritatis at aspernatur ipsam corrupti omnis veniam nisi culpa ratione similique maxime architecto illo illum facere, magnam voluptates.</p>
+            </div>
+            <div class="resultcol">
+                <div class="user">
+                    <img src="images/0 (1).jpg" ![](images/0(1).jpg)>
+                    <div class="userinfo">
+                        <h4>EDWARD STARK <i class="fa fa-twitter"></i></h4>
+                        <small>@stark</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eligendi mollitia perferendis earum commodi non nam beatae molestiae.</p>
+            </div>
+            <div class="resultcol">
+                <div class="user">
+                    <img src="images/casual-young-man-1100-980x779.jpg" ![](images/casual-young-man-1100-980x779.jpg)>
+                    <div class="userinfo">
+                        <h4>JESSIE PINKMAN <i class="fa fa-twitter"></i></h4>
+                        <small>@jessie_pinkman</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet praesentium eligendi reprehenderit.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="footer">
+        <div class="titletext">
+            <p>CONTACT US</p>
+            <h1>Visit Us and Get in Touch</h1>
+        </div>
+        <div class="footerrow">
+            <div class="leftfoot">
+                <h1>Opening hours</h1>
+                <p><i class="fa fa-clock-o"></i>Monday to Friday - 9am to 9pm</p>
+                <p><i class="fa fa-check-square-o"></i>24/7 online support</p>
+            </div>
+            <div class="rightfoot">
+                <h1>Address</h1>
+                <p>#1081 abc street, x city IN</p>
+                <p>qwerty@example.com<i class="fa fa-paper-plane"></i></p>
+                <p>+91 912345678<i class="fa fa-phone"></i></p>
+            </div>
+        </div>
+
+        <div class="social">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+
+    </section>
+
+    <script>
+        var menubtn = document.getElementById("menubtn")
+        var sidenav = document.getElementById("sidenav")
+        var menu = document.getElementById("menu")
+
+        sidenav.style.right = "-250px";
+
+        menubtn.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0";
+                menu.src = "images/close.png";
+            }
+            else{
+                sidenav.style.right = "-250px";
+                menu.src = "images/menu.png";
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
